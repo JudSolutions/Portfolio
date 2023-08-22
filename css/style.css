@@ -84,7 +84,12 @@ section {
 .home-img img {
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
+    width: 350px;
+    height: 550px;
+    border-radius: 50%; /* Establece el radio al 50% para crear un círculo */
+    overflow: hidden; /* Asegura que la imagen se ajuste dentro del círculo */
 }
+
 
 @keyframes floatImage {
     0% {
