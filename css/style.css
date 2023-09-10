@@ -176,6 +176,13 @@ span {
     width: 35vw;
 }
 
+
+.about-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--main-color)
+}
+
 .heading {
     text-align: center;
     font-size: 4.5rem;
